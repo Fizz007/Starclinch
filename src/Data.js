@@ -12,7 +12,7 @@ export const data = [
             id:2,
             headd:"The Masked",
             eventNo:"3608",
-            img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTo83odyHXPoJ1nkMoYaRdd-FvdzUQvQbUhQ&usqp=CAU"
+            img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xAV1rtMYRg7ff5cCJZ6adySwyJc347Zqyg&usqp=CAU"
         },
         {
             id:3,
@@ -69,11 +69,11 @@ export const imgdata = [
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTo83odyHXPoJ1nkMoYaRdd-FvdzUQvQbUhQ&usqp=CAU"
     },
     {
-        id:1,
+        id:3,
         img:"https://m.media-amazon.com/images/M/MV5BMTcxNjUyNTg2NF5BMl5BanBnXkFtZTYwNjc2MDM0._V1_.jpg"
     },
     {
-        id:1,
-        img:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/selena-gomez-1665428944.jpg?crop=0.476xw:0.952xh;0.516xw,0.0160xh&amp;resize=640:*"
+        id:4,
+        img:"https://images.unsplash.com/photo-1505282722405-413748d3de7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2luZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
 ]

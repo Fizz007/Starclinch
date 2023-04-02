@@ -5,6 +5,7 @@ import Imagescard from "./Imagescard";
 const Card = ({e}) => {
   const [btn , setBtn] = useState(true)
   const [imgg , setImgg] = useState(imgdata[0].img)
+  const [tog, setTog] = useState(false)
     
   
   const { id, headd, eventNo, img } = e;
@@ -14,14 +15,15 @@ const Card = ({e}) => {
 
     function setClickImage(data){
       setImgg(data.img)
+      setTog(true)
     }
   return (
     <div className="card_container">
       <div className="card">
         <div className="main_img">
           <img
-            src={imgg}
-            alt=""
+            src={tog ? imgg : img}
+            alt="" 
           />
         </div>
         <div className="content">
