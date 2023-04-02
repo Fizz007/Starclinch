@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_data">
-        <div className="buyers_data">
+        <div className="buyers_data maxwidth">
           <h2>For buyers</h2>
           <p>Our Buyers</p>
           <p>Browse</p>
@@ -39,7 +39,7 @@ const Footer = () => {
           <p>Careers</p>
         </div>
 
-        <div className="buyers_data">
+        <div className="buyers_data maxwidth">
           <h2>For Buyers</h2>
           <p>Our Buyers</p>
           <p>Browse</p>
